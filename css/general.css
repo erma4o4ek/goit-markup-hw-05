@@ -235,10 +235,15 @@ display: inline-block;
     margin-top: 0;
     margin-bottom: 9px;
     color: var(--text-color);
+
+    line-height: 1.71;
+    text-decoration: none;
 }
 
 .contact-link-footer {
     color: var(--footer-text-color);
+
+    transition: opacity 250ms var(--transition-time);
 }
 
 .contact-link-footer:last-child {
@@ -278,6 +283,8 @@ display: inline-block;
     background-color: var(--social-footer-color);
     border: 1px solid var(--social-footer-color);
     border-radius: 50%;
+
+    transition: opacity 250ms var(--transition-time);
 }
 
 
